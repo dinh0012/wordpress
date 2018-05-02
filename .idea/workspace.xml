@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff8fb5c-7bbb-4dc6-8663-ffa0d5eb66a0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wordpress/db/database.sql" afterPath="$PROJECT_DIR$/wordpress/db/database.sql" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/log_file_2017-03-20__10-26-30.txt" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/log_file_2017-03-20__10-26-30.txt" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2018/04/demoContent.xml" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2018/04/demoContent.xml" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2018/04/log_file_2018-04-29__15-30-38.txt" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2018/04/log_file_2018-04-29__15-30-38.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,30 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="themes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-admin/themes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1520529342000" expanded="true" signature="3437:3444" ph="..." />
-                <marker date="1520529342000" expanded="true" signature="3451:3458" ph="..." />
-                <marker date="1520529342000" expanded="true" signature="3731:3738" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -71,14 +45,161 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/db/database.sql">
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="374" column="36736" lean-forward="false" selection-start-line="374" selection-start-column="36736" selection-end-line="374" selection-end-column="36736" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shortcodes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/themestall-addons/inc/core/shortcodes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="2649" column="42" lean-forward="false" selection-start-line="2649" selection-start-column="27" selection-end-line="2649" selection-end-column="42" />
               <folding>
-                <marker date="1525229645000" expanded="true" signature="25046:39906" ph="INSERT INTO `wp_comments`... " />
+                <marker date="1525247423402" expanded="true" signature="21684:21878" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="21719:21851" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="21924:22057" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="35563:35943" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="35602:35937" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="35639:35931" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="35661:35722" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="84135:84641" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="84189:84575" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="84282:84434" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="84749:84942" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="84796:84873" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="86450:87000" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="86497:86973" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="86580:86611" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="86687:86719" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="86786:86817" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="86881:86912" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="87082:87467" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="87129:87440" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="87522:87919" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="87550:87908" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="87578:87609" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="87663:87695" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="87740:87771" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="87835:87866" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="88247:88713" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="88268:88704" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="88300:88695" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="88376:88686" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="88523:88658" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="90354:90548" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="90394:90537" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="92234:92438" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="93900:94661" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="93946:94065" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="94155:94196" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="94197:94642" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="94226:94619" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="94268:94309" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="96764:97128" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="96813:96878" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="96933:97087" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="96945:97059" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="96958:97046" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="100244:100610" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="100270:100335" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="100304:100325" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="100361:100610" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="100398:100610" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="100434:100535" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="101140:101393" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="101173:101193" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="101227:101322" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="103378:103967" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="103419:103928" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="103485:103634" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="103727:103885" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="107125:107402" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="107251:107388" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="107707:107826" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="109078:109346" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="109185:109337" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="109642:109875" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="109720:109865" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="109753:109853" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="110155:110254" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="110788:111441" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="110824:111441" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="110911:110981" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="111038:111441" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="111158:111441" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="111188:111389" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="111636:111862" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="111794:111856" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="111804:111810" ph=" " />
+                <marker date="1525247423402" expanded="false" signature="111810:111816" ph=" " />
+                <marker date="1525247423402" expanded="true" signature="111960:112063" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="112172:112796" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="112292:112796" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="112322:112744" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="112354:112732" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="112584:112719" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="112660:112666" ph=" " />
+                <marker date="1525247423402" expanded="true" signature="112991:113217" ph="..." />
+                <marker date="1525247423402" expanded="true" signature="113149:113211" ph="..." />
+                <marker date="1525247423402" expanded="false" signature="113159:113165" ph=" " />
+                <marker date="1525247423402" expanded="false" signature="113165:113171" ph=" " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post-template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new/wp-includes/post-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,10 +213,16 @@
       <find>giangnv1406@gmail.com</find>
       <find>truvatour</find>
       <find>earch</find>
+      <find>form-inline site-search</find>
+      <find>products_search</find>
     </findStrings>
     <replaceStrings>
       <replace>http://wp-new.local</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\projects\wordpress\wordpress\wp-content\themes</dir>
+      <dir>E:\projects\wordpress\wordpress\wp-content</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,6 +239,11 @@
         <option value="$PROJECT_DIR$/wordpress/.htaccess" />
         <option value="$PROJECT_DIR$/new/wp-config.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/search.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/plugins/themestall-addons/inc/core/shortcodes.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/page.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php" />
       </list>
     </option>
   </component>
@@ -167,6 +299,13 @@
               <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -176,6 +315,14 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="truvatour" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="truvatour-child" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -187,6 +334,11 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\wordpress\wordpress\wp-content\themes\truvatour-child" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,12 +365,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525225092006</updated>
-      <workItem from="1525225093698" duration="7841000" />
+      <workItem from="1525225093698" duration="9791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7841000" />
+    <option name="totallyTimeSpent" value="9791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1296" height="1000" extended-state="6" />
@@ -229,6 +381,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -239,7 +392,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -370,6 +522,159 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/themestall-addons/inc/core/shortcodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="2649" column="42" lean-forward="false" selection-start-line="2649" selection-start-column="27" selection-end-line="2649" selection-end-column="42" />
+          <folding>
+            <marker date="1525247423402" expanded="true" signature="21684:21878" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="21719:21851" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="21924:22057" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="35563:35943" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="35602:35937" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="35639:35931" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="35661:35722" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="84135:84641" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="84189:84575" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="84282:84434" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="84749:84942" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="84796:84873" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="86450:87000" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="86497:86973" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="86580:86611" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="86687:86719" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="86786:86817" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="86881:86912" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="87082:87467" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="87129:87440" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="87522:87919" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="87550:87908" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="87578:87609" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="87663:87695" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="87740:87771" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="87835:87866" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="88247:88713" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="88268:88704" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="88300:88695" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="88376:88686" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="88523:88658" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="90354:90548" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="90394:90537" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="92234:92438" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="93900:94661" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="93946:94065" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="94155:94196" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="94197:94642" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="94226:94619" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="94268:94309" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="96764:97128" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="96813:96878" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="96933:97087" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="96945:97059" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="96958:97046" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="100244:100610" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="100270:100335" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="100304:100325" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="100361:100610" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="100398:100610" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="100434:100535" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="101140:101393" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="101173:101193" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="101227:101322" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="103378:103967" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="103419:103928" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="103485:103634" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="103727:103885" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="107125:107402" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="107251:107388" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="107707:107826" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="109078:109346" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="109185:109337" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="109642:109875" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="109720:109865" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="109753:109853" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="110155:110254" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="110788:111441" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="110824:111441" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="110911:110981" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="111038:111441" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="111158:111441" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="111188:111389" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="111636:111862" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="111794:111856" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="111804:111810" ph=" " />
+            <marker date="1525247423402" expanded="false" signature="111810:111816" ph=" " />
+            <marker date="1525247423402" expanded="true" signature="111960:112063" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="112172:112796" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="112292:112796" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="112322:112744" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="112354:112732" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="112584:112719" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="112660:112666" ph=" " />
+            <marker date="1525247423402" expanded="true" signature="112991:113217" ph="..." />
+            <marker date="1525247423402" expanded="true" signature="113149:113211" ph="..." />
+            <marker date="1525247423402" expanded="false" signature="113159:113165" ph=" " />
+            <marker date="1525247423402" expanded="false" signature="113165:113171" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new/wp-includes/post-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="86" />
           <folding />
         </state>
       </provider>
