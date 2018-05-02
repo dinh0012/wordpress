@@ -11,3 +11,17 @@
  Tags:         custom-background, threaded-comments, custom-menu, featured-images, full-width-template, theme-options, translation-ready
  Text Domain:  truvatour-child
 */
+
+.navbar-brand > img {
+    max-height: 100px;
+}
+
+.navbar-nav {
+    padding-top: 25px;
+}
+.navbar .navbar-nav > li > a {
+    padding-bottom: 0;
+}
+.navbar .navbar-nav.navbar-right li a {
+    padding-bottom: 0;
+}
