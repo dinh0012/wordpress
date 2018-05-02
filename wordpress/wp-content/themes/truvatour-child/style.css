@@ -25,3 +25,50 @@
 .navbar .navbar-nav.navbar-right li a {
     padding-bottom: 0;
 }
+form#searchform #s {
+    height: 69px;
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px 30px;
+    border: solid 1px #e8e8e8;
+}
+
+form#searchform {
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+form#searchform input, form#searchform select {
+    border: solid 1px #e8e8e8;
+    height: 45px;
+    width: 100%;
+}
+
+.option-search .form-control {
+    padding: 0;
+    padding-top: 15px;
+    padding: 0;
+    padding-top: 15px;
+    overflow: hidden;
+    height: auto;
+    border-radius: inherit;
+}
+
+form#searchform .input-group-addon {
+    background: #fff;
+    border: 0;
+    padding-top: 25px;
+    position:  relative;
+    text-align: right;
+}
+
+.option-search .item {
+    padding: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.option-search  .no-pd-r {
+    padding-right: 0;
+}

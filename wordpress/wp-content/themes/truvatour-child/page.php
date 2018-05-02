@@ -26,7 +26,6 @@ get_header(); ?>
 		// End the loop.
 		endwhile;
 		?>
-		<?php echo do_shortcode('[WPCR_SHOW POSTID=' . get_the_ID() . ' NUM="3"]'); ?>
     <?php get_template_part( 'layout/after', '' ); ?>
 
 <?php get_footer(); ?>

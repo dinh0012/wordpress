@@ -2,9 +2,518 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff8fb5c-7bbb-4dc6-8663-ffa0d5eb66a0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/header.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_1_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_2_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_3_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_4_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/Poster_5_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_1_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_2_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_3_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_4_front1-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_5_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_6_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/T_7_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_angle-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_1_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_angle-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_2_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_angle-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_3_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_angle-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_4_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_angle-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_5_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_angle-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cd_6_flat-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-300x115.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-300x115.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-600x230.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-600x230.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-768x295.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_01-768x295.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-300x115.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-300x115.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-600x230.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-600x230.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-768x295.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_02-768x295.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-300x115.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-300x115.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-600x230.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-600x230.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-768x295.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_03-768x295.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-300x115.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-300x115.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-600x230.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-600x230.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-768x295.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_04-768x295.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-300x115.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-300x115.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-600x230.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-600x230.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-768x295.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_05-768x295.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-300x115.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-300x115.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-600x230.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-600x230.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-768x295.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/cruise_06-768x295.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_1_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_2_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_3_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_4_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_5_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_6_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_back-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hoodie_7_front-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_05-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/hotel_06-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_1_up-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_2_up-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_3_up-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_4_up-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/poster_5_up-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_01-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_02-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_03-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/tour_04-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-300x160.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-300x160.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-600x319.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-600x319.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-768x409.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_01-768x409.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-300x160.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-300x160.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-600x319.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-600x319.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-768x409.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_02-768x409.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-300x160.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-300x160.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-600x319.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-600x319.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-768x409.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_03-768x409.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-300x160.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-300x160.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-600x319.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-600x319.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-768x409.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_04-768x409.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-300x160.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-300x160.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-600x319.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-600x319.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-768x409.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_05-768x409.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-300x160.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-300x160.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-600x319.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-600x319.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-768x409.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2013/06/vehicle_06-768x409.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_01-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_02-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_03-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_04-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_05-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_06-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_07-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_08-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_09-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_10-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_11-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-300x225.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-300x225.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-600x450.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-600x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-768x576.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/gallery_12-768x576.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-1200x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-1200x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-400x400_c.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-400x400_c.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_01-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-1200x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-1200x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-400x400_c.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-400x400_c.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_02-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-1200x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-1200x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-400x400_c.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-400x400_c.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_03-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-1200x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-1200x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-300x165.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-300x165.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-400x400_c.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-400x400_c.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-600x331.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-600x331.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-768x423.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/hotel_04-768x423.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-1024x488.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-1024x488.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-300x143.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-300x143.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-600x286.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-600x286.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-768x366.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_01-768x366.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-1024x488.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-1024x488.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-300x143.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-300x143.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-600x286.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-600x286.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-768x366.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_02-768x366.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-1024x488.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-1024x488.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-300x143.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-300x143.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-600x286.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-600x286.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-768x366.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/parallax_03-768x366.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-1024x1024.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-1024x1024.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_01-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-1024x1024.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-1024x1024.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_02-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-100x100.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-100x100.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-1024x1024.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-1024x1024.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-150x150.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-150x150.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-300x300.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-300x300.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-600x600.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-600x600.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-768x768.jpg" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/2017/03/service_03-768x768.jpg" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/uploads/motopress-content-editor/google-font-classes/opensans.css" afterPath="$PROJECT_DIR$/wordpress/wp-content/uploads/motopress-content-editor/google-font-classes/opensans.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +524,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="725">
+              <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -38,128 +537,42 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="44" />
+            <state relative-caret-position="304">
+              <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/sidebar.php">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="244" column="54" lean-forward="false" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="54" />
+              <folding>
+                <element signature="e#441#448#1#HTML" expanded="true" />
+                <element signature="e#6365#6371#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="woo_functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/include/woo_functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="603" column="0" lean-forward="true" selection-start-line="603" selection-start-column="0" selection-end-line="616" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shortcodes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/themestall-addons/inc/core/shortcodes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="2649" column="42" lean-forward="false" selection-start-line="2649" selection-start-column="27" selection-end-line="2649" selection-end-column="42" />
-              <folding>
-                <marker date="1525247423402" expanded="true" signature="21684:21878" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="21719:21851" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="21924:22057" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="35563:35943" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="35602:35937" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="35639:35931" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="35661:35722" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="84135:84641" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="84189:84575" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="84282:84434" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="84749:84942" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="84796:84873" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="86450:87000" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="86497:86973" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="86580:86611" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="86687:86719" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="86786:86817" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="86881:86912" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="87082:87467" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="87129:87440" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="87522:87919" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="87550:87908" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="87578:87609" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="87663:87695" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="87740:87771" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="87835:87866" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="88247:88713" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="88268:88704" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="88300:88695" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="88376:88686" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="88523:88658" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="90354:90548" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="90394:90537" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="92234:92438" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="93900:94661" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="93946:94065" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="94155:94196" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="94197:94642" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="94226:94619" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="94268:94309" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="96764:97128" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="96813:96878" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="96933:97087" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="96945:97059" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="96958:97046" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="100244:100610" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="100270:100335" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="100304:100325" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="100361:100610" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="100398:100610" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="100434:100535" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="101140:101393" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="101173:101193" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="101227:101322" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="103378:103967" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="103419:103928" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="103485:103634" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="103727:103885" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="107125:107402" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="107251:107388" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="107707:107826" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="109078:109346" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="109185:109337" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="109642:109875" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="109720:109865" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="109753:109853" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="110155:110254" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="110788:111441" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="110824:111441" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="110911:110981" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="111038:111441" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="111158:111441" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="111188:111389" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="111636:111862" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="111794:111856" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="111804:111810" ph=" " />
-                <marker date="1525247423402" expanded="false" signature="111810:111816" ph=" " />
-                <marker date="1525247423402" expanded="true" signature="111960:112063" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="112172:112796" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="112292:112796" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="112322:112744" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="112354:112732" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="112584:112719" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="112660:112666" ph=" " />
-                <marker date="1525247423402" expanded="true" signature="112991:113217" ph="..." />
-                <marker date="1525247423402" expanded="true" signature="113149:113211" ph="..." />
-                <marker date="1525247423402" expanded="false" signature="113159:113165" ph=" " />
-                <marker date="1525247423402" expanded="false" signature="113165:113171" ph=" " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -167,38 +580,37 @@
       <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php">
+      <file leaf-file-name="meta.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/meta.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="86" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="51" />
+              <folding>
+                <marker date="1509426050000" expanded="true" signature="2605:2669" ph="SELECT COUNT... ${$table}" />
+                <marker date="1509426050000" expanded="true" signature="6711:6777" ph="SELECT ${$id... ${$table}" />
+                <marker date="1509426050000" expanded="true" signature="12138:12187" ph="SELECT ${$id... ${$table}" />
+                <marker date="1509426050000" expanded="true" signature="12671:12742" ph="SELECT ${$ty... ${$table}" />
+                <marker date="1509426050000" expanded="true" signature="12834:12885" ph="SELECT ${$ty... ${$table}" />
+                <marker date="1509426050000" expanded="true" signature="13703:13778" ph="DELETE FROM ${$table}... " />
+                <marker date="1509426050000" expanded="true" signature="18885:18927" ph="SELECT * FRO... ${$table}" />
+                <marker date="1509426050000" expanded="true" signature="25668:25768" ph="SELECT ${$co... ${$table}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new/wp-includes/post-template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="270">
+              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -212,16 +624,23 @@
       <find>admin</find>
       <find>giangnv1406@gmail.com</find>
       <find>truvatour</find>
+      <find>products_search</find>
+      <find>id=&quot;searchform&quot;</find>
       <find>earch</find>
       <find>form-inline site-search</find>
-      <find>products_search</find>
+      <find>metada</find>
+      <find>truvatour_custom_search_form</find>
+      <find>pre_get_posts</find>
+      <find>form#searchform</find>
+      <find>truvatour_advanced_search_query</find>
     </findStrings>
     <replaceStrings>
       <replace>http://wp-new.local</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>E:\projects\wordpress\wordpress\wp-content\themes</dir>
+      <dir>E:\projects\wordpress\wordpress\wp-content\themes\truvatour</dir>
       <dir>E:\projects\wordpress\wordpress\wp-content</dir>
+      <dir>E:\projects\wordpress\wordpress\wp-content\themes</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -238,12 +657,15 @@
         <option value="$PROJECT_DIR$/wordpress/wp-config.php" />
         <option value="$PROJECT_DIR$/wordpress/.htaccess" />
         <option value="$PROJECT_DIR$/new/wp-config.php" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/search.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/plugins/themestall-addons/inc/core/shortcodes.php" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/page.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/include/functions.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/header.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/include/functions.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php" />
       </list>
     </option>
   </component>
@@ -299,13 +721,6 @@
               <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -315,6 +730,15 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="truvatour" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="truvatour" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
@@ -338,6 +762,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\projects\wordpress\wordpress\wp-content\themes\truvatour-child" />
+      <recent name="E:\projects\wordpress\wordpress\wp-content\themes\truvatour-child\includes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,12 +790,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525225092006</updated>
-      <workItem from="1525225093698" duration="9791000" />
+      <workItem from="1525225093698" duration="17390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9791000" />
+    <option name="totallyTimeSpent" value="17390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1296" height="1000" extended-state="6" />
@@ -395,6 +820,26 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -510,34 +955,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="70" column="44" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -554,96 +975,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="2649" column="42" lean-forward="false" selection-start-line="2649" selection-start-column="27" selection-end-line="2649" selection-end-column="42" />
-          <folding>
-            <marker date="1525247423402" expanded="true" signature="21684:21878" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="21719:21851" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="21924:22057" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="35563:35943" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="35602:35937" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="35639:35931" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="35661:35722" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="84135:84641" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="84189:84575" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="84282:84434" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="84749:84942" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="84796:84873" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="86450:87000" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="86497:86973" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="86580:86611" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="86687:86719" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="86786:86817" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="86881:86912" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="87082:87467" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="87129:87440" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="87522:87919" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="87550:87908" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="87578:87609" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="87663:87695" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="87740:87771" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="87835:87866" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="88247:88713" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="88268:88704" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="88300:88695" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="88376:88686" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="88523:88658" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="90354:90548" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="90394:90537" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="92234:92438" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="93900:94661" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="93946:94065" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="94155:94196" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="94197:94642" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="94226:94619" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="94268:94309" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="96764:97128" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="96813:96878" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="96933:97087" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="96945:97059" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="96958:97046" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="100244:100610" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="100270:100335" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="100304:100325" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="100361:100610" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="100398:100610" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="100434:100535" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="101140:101393" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="101173:101193" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="101227:101322" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="103378:103967" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="103419:103928" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="103485:103634" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="103727:103885" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="107125:107402" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="107251:107388" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="107707:107826" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="109078:109346" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="109185:109337" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="109642:109875" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="109720:109865" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="109753:109853" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="110155:110254" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="110788:111441" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="110824:111441" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="110911:110981" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="111038:111441" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="111158:111441" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="111188:111389" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="111636:111862" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="111794:111856" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="111804:111810" ph=" " />
-            <marker date="1525247423402" expanded="false" signature="111810:111816" ph=" " />
-            <marker date="1525247423402" expanded="true" signature="111960:112063" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="112172:112796" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="112292:112796" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="112322:112744" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="112354:112732" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="112584:112719" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="112660:112666" ph=" " />
-            <marker date="1525247423402" expanded="true" signature="112991:113217" ph="..." />
-            <marker date="1525247423402" expanded="true" signature="113149:113211" ph="..." />
-            <marker date="1525247423402" expanded="false" signature="113159:113165" ph=" " />
-            <marker date="1525247423402" expanded="false" signature="113165:113171" ph=" " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -655,27 +987,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php">
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/include/custom-menu/custom-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/include/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="599" column="1" lean-forward="true" selection-start-line="599" selection-start-column="1" selection-end-line="599" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/meta-box/inc/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-includes/meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="51" />
+          <folding>
+            <marker date="1509426050000" expanded="true" signature="2605:2669" ph="SELECT COUNT... ${$table}" />
+            <marker date="1509426050000" expanded="true" signature="6711:6777" ph="SELECT ${$id... ${$table}" />
+            <marker date="1509426050000" expanded="true" signature="12138:12187" ph="SELECT ${$id... ${$table}" />
+            <marker date="1509426050000" expanded="true" signature="12671:12742" ph="SELECT ${$ty... ${$table}" />
+            <marker date="1509426050000" expanded="true" signature="12834:12885" ph="SELECT ${$ty... ${$table}" />
+            <marker date="1509426050000" expanded="true" signature="13703:13778" ph="DELETE FROM ${$table}... " />
+            <marker date="1509426050000" expanded="true" signature="18885:18927" ph="SELECT * FRO... ${$table}" />
+            <marker date="1509426050000" expanded="true" signature="25668:25768" ph="SELECT ${$co... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/include/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="609" column="16" lean-forward="false" selection-start-line="609" selection-start-column="16" selection-end-line="609" selection-end-column="16" />
+          <folding>
+            <marker date="1525254797904" expanded="true" signature="1519:1689" ph="..." />
+            <marker date="1525254797904" expanded="true" signature="1762:1963" ph="..." />
+            <marker date="1525254797904" expanded="true" signature="2016:2262" ph="..." />
+            <marker date="1525254797904" expanded="true" signature="2312:2495" ph="..." />
+            <marker date="1525254797904" expanded="true" signature="15783:15922" ph="..." />
+            <marker date="1525254797904" expanded="true" signature="15995:16131" ph="..." />
+            <marker date="1525254797904" expanded="true" signature="17442:17450" ph="…" />
+            <marker date="1525254797904" expanded="true" signature="17929:17937" ph="…" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="86" />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour/include/woo_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="603" column="0" lean-forward="true" selection-start-line="603" selection-start-column="0" selection-end-line="616" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/truvatour-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="244" column="54" lean-forward="false" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="54" />
+          <folding>
+            <element signature="e#441#448#1#HTML" expanded="true" />
+            <element signature="e#6365#6371#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
