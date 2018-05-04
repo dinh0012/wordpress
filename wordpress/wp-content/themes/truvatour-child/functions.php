@@ -15,10 +15,11 @@ function truvatour_child_custom_search_form(){
                                 <select name="departure_month" class="col-md-4">
                                     <option value="">Departure month</option>
                                     <?php
-                                    for ($i = 1; $i < 12; $i++) {
+                                    $arrayMonthName = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+                                    for ($i = 1; $i < 13; $i++) {
                                         ?>
                                         <option <?php echo $i == $_GET['departure_month'] ? 'selected' : '' ?>
-                                            value="<?php echo $i?>"><?php echo $i?></option>
+                                            value="<?php echo $i?>"><?php echo $arrayMonthName[$i]?></option>
                                         <?php
                                     }
                                     ?>
@@ -38,7 +39,7 @@ function truvatour_child_custom_search_form(){
                                 <select name="lengthofcruise" class="col-md-4">
                                     <option value="">Length of cruise </option>
                                     <?php
-                                    for ($i = 1; $i < 15; $i++) {
+                                    for ($i = 1; $i <= 15; $i++) {
                                         ?>
                                             <option <?php echo $i == $_GET['lengthofcruise'] ? 'selected' : '' ?>
                                                 value="<?php echo $i?>"><?php echo $i?></option>
@@ -61,7 +62,7 @@ function truvatour_child_custom_search_form(){
                                 <select name="no_of_cabins_required" class="col-md-4">
                                     <option value="">No. of cabins required</option>
                                     <?php
-                                    for ($i = 1; $i < 5; $i++) {
+                                    for ($i = 1; $i <= 5; $i++) {
                                         ?>
                                         <option <?php echo $i == $_GET['no_of_cabins_required'] ? 'selected' : '' ?>
                                             value="<?php echo $i?>"><?php echo $i?></option>
@@ -321,3 +322,96 @@ function meta_search_query($query) {
     };
 }
 add_filter( 'pre_get_posts', 'meta_search_query');
+
+
+add_filter( 'pre_get_posts', 'custom_search_query');
+
+function search_form_homepage($args, $content){
+    $optionMonth = '';
+    $arrayMonthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    for ($i = 0; $i < 12; $i++) {
+        $optionMonth .= '<option value="'. $i .'">' . $arrayMonthName[$i] . '</option>';
+    }
+    $lenghtCruise ='';
+    for ($i = 1; $i <= 15; $i++) {
+        $lenghtCruise .= '<option value="'. $i . '">'. $i . '</option>';
+
+    }
+    $cabinsRequired = '';
+        for ($i = 1; $i < 5; $i++) {
+            $cabinsRequired .= '<option value="'. $i .'">' . $i .'</option>';
+        }
+    return '<div class="row">
+            <div class="widget clearfix product-search">
+                <form id="searchform" action="' . esc_url( home_url( '/' ) ) . '">
+                    <input type="text" name="s" id="s" class="search_name" placeholder="'. $args['button_text'] . '">
+                    <div class="option-search">
+                        <div class="form-control">
+                            <div class="item col-md-4">
+                                <select name="departure_month" class="col-md-4">
+                                    <option value="">Departure month</option>
+                                    '.$optionMonth.'
+                                </select>
+                            </div>
+                            <div class="item col-md-4">
+                                <select name="cruise_type" class="col-md-4">
+                                    <option value="">Cruise type</option>
+                                    <option  value="river">River</option>
+                                    <option  value="ocean">Ocean</option>
+                                </select>
+                            </div>
+                            <div class="item col-md-4 no-pd-r">
+                                <input type="text" name="cruise_line" class="col-md-4" placeholder="Cruise line" >
+                            </div>
+                            <div class="item col-md-4">
+                                <select name="lengthofcruise" class="col-md-4">
+                                    <option value="">Length of cruise </option>
+                                   '. $lenghtCruise .'
+                                </select>
+                            </div>
+                            <div class="item col-md-4">
+                                <select name="departure_option" class="col-md-4">
+                                    <option value="">Ex-UK departure option</option>
+                                    <option  value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                            <div class="item col-md-4 no-pd-r">
+                                <input type="text" name="departure_airport" class="col-md-4" placeholder="UK departure airport" >
+                            </div>
+                            <div class="item col-md-4">
+                                <select name="no_of_cabins_required" class="col-md-4">
+                                    <option value="">No. of cabins required</option>
+                                    '. $cabinsRequired . '
+                                </select>
+                            </div>
+                            <div class="item col-md-4">
+                                <select name="cabin_berth" class="col-md-4">
+                                    <option value="">Cabin berth</option>
+                                   <option  value="1">1</option>
+                                   <option  value="2">2</option>
+                                   <option  value="3">3</option>
+                                   <option  value="4">4</option>
+                           
+                                </select>
+                            </div>
+                            <div class="item col-md-4 no-pd-r">
+                                <select name="cabin_type" class="col-md-4">
+                                    <option value="">Cabin type </option>
+                                    <option  value="inside">Inside</option>
+                                    <option  value="outside">Outside</option>
+                                    <option  value="balcony">Balcony</option>
+                                    <option  value="suite">Suite</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-group-addon">
+                            <button class="btn btn-primary" type="submit"><span>Search</span> &nbsp;<i class="flaticon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </div>';
+
+}
+add_shortcode( 'search_form_homepage', 'search_form_homepage' );

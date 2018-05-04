@@ -37,6 +37,8 @@ form#searchform {
     background: #fff;
     border-radius: 5px;
     padding: 30px;
+    z-index: 2;
+    position: relative;
 }
 
 form#searchform input, form#searchform select {
@@ -71,4 +73,13 @@ form#searchform .input-group-addon {
 
 .option-search  .no-pd-r {
     padding-right: 0;
+}
+a.home-link-text img {
+    max-height: 65px;
+}
+.container.video-indexing form#searchform .form-control {
+    border: 0;
+    border-color: #fff;
+    border-top: 0;
+    box-shadow: inherit;
 }
