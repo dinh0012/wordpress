@@ -2,6 +2,14 @@
 //write functions here
 
 function truvatour_child_custom_search_form(){
+    $termCruiseType = get_terms(array(
+        'taxonomy' => 'cruise_type',
+        'hide_empty' => false,
+    ));
+    $arrayCruiseType = [];
+    foreach ($termCruiseType as $type) {
+        $arrayCruiseType[$type->slug] = $type->name;
+    }
     ?>
     <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -28,8 +36,9 @@ function truvatour_child_custom_search_form(){
                             <div class="item col-md-4">
                                 <select name="cruise_type" class="col-md-4">
                                     <option value="">Cruise type</option>
-                                    <option <?php echo 'river' == $_GET['cruise_type'] ? 'selected' : '' ?> value="river">River</option>
-                                    <option <?php echo 'ocean' == $_GET['cruise_type'] ? 'selected' : '' ?> value="ocean">Ocean</option>
+                                    <?php foreach ($arrayCruiseType as $key => $type): ?>
+                                        <option <?php echo $key == $_GET['cruise_type'] ? 'selected' : '' ?> value="<?php echo $key ?>"><?php echo $type ?></option>
+                                    <?php endforeach; ?>
                                 </select>
                             </div>
                             <div class="item col-md-4 no-pd-r">
@@ -107,7 +116,18 @@ function truvatour_child_custom_search_form(){
     print_r($wp_meta_boxes);
 }
 function cruise_register_meta_boxes( $meta_boxes ) {
+    $termCruiseType = get_terms(array(
+        'taxonomy' => 'cruise_type',
+        'hide_empty' => false,
+    ));
+    $arrayCruiseType = [];
+    foreach ($termCruiseType as $type) {
+        $arrayCruiseType[$type->slug] = $type->name;
+    }
     $prefix = 'rw_';
+
+
+    $arrayMonthName = ['1' => 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
     $meta_boxes[] = array(
         'id' => 'cruise_offer',
@@ -121,20 +141,7 @@ function cruise_register_meta_boxes( $meta_boxes ) {
                 'id' => $prefix . 'departure_month',
                 'name' => esc_html__( 'Departure month', 'metabox-online-generator' ),
                 'type' => 'select',
-                'options' => array(
-                    1 => '1',
-                    '2',
-                    '3',
-                    '4',
-                    '5',
-                    '6',
-                    '7',
-                    '8',
-                    '9',
-                    '10',
-                    '11',
-                    '12',
-                ),
+                'options' => $arrayMonthName,
                 'std' => '1',
             ),
             array(
@@ -147,10 +154,7 @@ function cruise_register_meta_boxes( $meta_boxes ) {
                 'name' => esc_html__( 'Cruise type', 'metabox-online-generator' ),
                 'type' => 'select',
                 'placeholder' => esc_html__( 'Select an Item', 'metabox-online-generator' ),
-                'options' => array(
-                    'river' => 'River',
-                    'ocean' => 'Ocean',
-                ),
+                'options' => $arrayCruiseType,
             ),
             array(
                 'id' => $prefix . 'lengthofcruise',
@@ -415,3 +419,58 @@ function search_form_homepage($args, $content){
 
 }
 add_shortcode( 'search_form_homepage', 'search_form_homepage' );
+
+
+add_action( 'house_cruise_type_add_form_fields', 'add_cruise_type_group_field', 10, 2 );
+function add_feature_group_field($taxonomy) {
+    global $feature_groups;
+    ?><div class="form-field term-group">
+    <label for="featuret-group"><?php _e('Cruise type Group', 'my_plugin'); ?></label>
+    <select class="postform" id="equipment-group" name="feature-group">
+        <option value="-1"><?php _e('none', 'my_plugin'); ?></option><?php foreach ($feature_groups as $_group_key => $_group) : ?>
+            <option value="<?php echo $_group_key; ?>" class=""><?php echo $_group; ?></option>
+        <?php endforeach; ?>
+    </select>
+    </div><?php
+}
+
+add_action('init', 'register_feature_taxonomy');
+
+function register_feature_taxonomy() {
+    $labels = array(
+        'name' => _x( 'Cruise type', 'taxonomy general name', 'my_plugin' ),
+        'singular_name' => _x('Cruise type', 'taxonomy singular name', 'my_plugin'),
+        'search_items' => __('Search Cruise type', 'my_plugin'),
+        'popular_items' => __('Common Cruise type', 'my_plugin'),
+        'all_items' => __('All Cruise type', 'my_plugin'),
+        'edit_item' => __('Edit Cruise type', 'my_plugin'),
+        'update_item' => __('Update Cruise type', 'my_plugin'),
+        'add_new_item' => __('Add new Cruise type', 'my_plugin'),
+        'new_item_name' => __('New Cruise type:', 'my_plugin'),
+        'add_or_remove_items' => __('Remove Cruise type', 'my_plugin'),
+        'choose_from_most_used' => __('Choose from common Cruise type', 'my_plugin'),
+        'not_found' => __('No Cruise type found.', 'my_plugin'),
+        'menu_name' => __('Cruise type', 'my_plugin'),
+    );
+
+    $args = array(
+        'hierarchical' => false,
+        'labels' => $labels,
+        'show_ui' => true,
+        'public'                     => true,
+        'show_admin_column'          => true,
+        'show_in_nav_menus'          => true,
+    );
+
+    register_taxonomy('cruise_type', array('page'), $args);
+}
+
+add_action( 'created_cruise_type', 'save_feature_meta', 10, 2 );
+
+function save_feature_meta( $term_id, $tt_id ){
+    if( isset( $_POST['feature-group'] ) && '' !== $_POST['feature-group'] ){
+        $group = sanitize_title( $_POST['feature-group'] );
+        add_term_meta( $term_id, 'feature-group', $group, true );
+    }
+}
+
