@@ -45,6 +45,7 @@ form#searchform input, form#searchform select {
     border: solid 1px #e8e8e8;
     height: 45px;
     width: 100%;
+    background: #ffffff;
 }
 
 .option-search .form-control {
@@ -83,3 +84,42 @@ a.home-link-text img {
     border-top: 0;
     box-shadow: inherit;
 }
+form#searchform .types-of-search input {
+    width:  inherit;
+    height:  initial;
+    margin-right: 15px;
+}
+
+.types-of-search {
+    display:  inline-block;
+    padding-top: 15px;
+    height: 50px;
+    float: left;
+}
+
+.types-of-search .welcome label {}
+
+.types-of-search label {
+    color: #000;
+    display:  inline-block;
+    text-transform:  inherit;
+    font-weight:  inherit;
+    margin: 0;
+    cursor:  pointer;
+}
+
+.types-of-search label + input {
+    margin-left: 30px;
+}
+@media (max-width: 992px) {
+    #searchform button.btn.btn-primary {
+        display: block;
+        /* text-align:  right; */
+        margin-left: auto;
+    }
+
+    #searchform .item.col-md-4.no-pd-r {
+        padding-right: 15px;
+    }
+}
+
